@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.bk {
+    background-image: url(Iron-Throne.png);
+    
+}
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    float: left;
+    display: block;
+    padding: 10px 12px;
+    margin-right: 1000px;
+}
+
+nav li {
+    padding: 10px 12px;
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    color: #bbb5a8;
+
+}
+
+
+#home h1 {
+    font-size: 80px;
+    margin-top: 0;
+    padding: 60px;
+    text-align: center;
+    color: gold;
+    font-family: 'Noto Serif', serif;
+}
+
+#home p {
+    font-family: 'Noto Serif', serif;
+    color: #bbb5a8;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+#plataformas{
+  
+    background-color: #0F0F11;
+}
+#plataformas h1{
+    margin-top: 0;
+    padding: 30px;
+    font-family: 'Noto Serif', serif;
+    color: #bbb5a8;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#plataformas a {
+
+}
+
+
+
+h1 {
+    font-weight: 900;
+    color: #000;
+}
+
+.conteudo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.modulo p {
+    margin-bottom: 40px;
+}
+
+section.modulo:last-child {
+    margin-bottom: 0;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.modulo.construindo {
+    padding: 40px 0;
+    background: gray;
+}
+
+section.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, #000 100%);
+}
+
+section.parallax-1 {
+    background-image: url(imagens-personagens/hoster.jpg);
+}
+
+section.parallax-2 {
+    background-image: url(imagens-personagens/edmure.jpg);
+}
+
+section.parallax-3 {
+    background-image: url(imagens-personagens/catelyn.jpg);
+}
+
+section.parallax-4 {
+    background-image: url(imagens-personagens/lysa.jfif);
+}
+
+section.parallax-5 {
+    background-image: url(imagens-personagens/jon.jfif);
+}
+
+section.parallax-6 {
+    background-image: url(imagens-personagens/robert.jfif);
+}
+
+section.parallax-7 {
+    background-image: url(imagens-personagens/robert-bar.jpg);
+}
+
+section.parallax-8 {
+    background-image: url(imagens-personagens/stennis.jpg);
+}
+
+section.parallax-9 {
+    background-image: url(imagens-personagens/renly.jpg);
+}
+
+section.parallax-10 {
+    background-image: url(imagens-personagens/balon.jpg);
+}
+
+section.parallax-11 {
+    background-image: url(imagens-personagens/theon.jpg);
+}
+
+section.parallax-12 {
+    background-image: url(imagens-personagens/yara.jpg);
+}
+
+section.parallax-13 {
+    background-image: url(imagens-personagens/tywin.jpg);
+}
+
+section.parallax-14 {
+    background-image: url(imagens-personagens/jaime.jpg);
+}
+
+section.parallax-15 {
+    background-image: url(imagens-personagens/tyrion.jpg);
+}
+
+section.parallax-16 {
+    background-image: url(imagens-personagens/joffrey.jpg);
+}
+
+section.parallax-17 {
+    background-image: url(imagens-personagens/myrcella.jpg);
+}
+
+section.parallax-18 {
+    background-image: url(imagens-personagens/tommen.jpg);
+}
+
+section.parallax-19 {
+    background-image: url(imagens-personagens/doran.jfif);
+}
+
+section.parallax-20 {
+    background-image: url(imagens-personagens/oberyn.jfif);
+}
+
+section.parallax-21 {
+    background-image: url(imagens-personagens/ned.jpg);
+}
+
+section.parallax-22 {
+    background-image: url(imagens-personagens/Robb.jpg);
+}
+
+section.parallax-23 {
+    background-image: url(imagens-personagens/sansa.jpg);
+}
+
+section.parallax-24 {
+    background-image: url(imagens-personagens/arya.jpg);
+}
+
+section.parallax-25 {
+    background-image: url(imagens-personagens/bran.jpg);
+}
+
+section.parallax-26 {
+    background-image: url(imagens-personagens/rickon.jpg);
+}
+
+section.parallax-27 {
+    background-image: url(imagens-personagens/Jon-Snow.jpeg);
+}
+
+section.parallax-28 {
+    background-image: url(imagens-personagens/aerys.jpg);
+}
+
+section.parallax-29 {
+    background-image: url(imagens-personagens/daenerys.jpg);
+}
+
+section.parallax-30 {
+    background-image: url(imagens-personagens/rhaegar.jfif);
+}
+
+section.parallax-31 {
+    background-image: url(imagens-personagens/mace.jpg);
+}
+
+section.parallax-32 {
+    background-image: url(imagens-personagens/olenna.jpg);
+}
+
+section.parallax-33 {
+    background-image: url(imagens-personagens/margaery.jpg);
+}
+
+section.parallax-34 {
+    background-image: url(imagens-personagens/loras.jpg);
+}
+
+section.parallax h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
